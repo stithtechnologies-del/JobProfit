@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STITH TECHNOLOGIES</title>
+<meta name="description" content="STITH TECHNOLOGIES builds practical software designed to solve real-world problems.">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b0b0f;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+}
+
+header {
+    border-bottom: 1px solid #29292f;
+    padding: 22px 7%;
+    position: sticky;
+    top: 0;
+    background: rgba(11,11,15,.96);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.nav {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 22px;
+    color: #bdbdc7;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.hero {
+    max-width: 1100px;
+    margin: auto;
+    padding: 110px 7% 90px;
+}
+
+.eyebrow {
+    color: #aaaab5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: clamp(48px, 8vw, 88px);
+    line-height: .98;
+    margin: 18px 0 28px;
+    max-width: 900px;
+}
+
+.hero p {
+    color: #c5c5ce;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 15px 24px;
+    background: white;
+    color: #09090b;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 7%;
+}
+
+.section h2 {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+.muted {
+    color: #aaaab5;
+}
+
+.product {
+    border: 1px solid #303039;
+    border-radius: 16px;
+    padding: 35px;
+    background: #111116;
+}
+
+.product h3 {
+    font-size: 32px;
+    margin: 0 0 8px;
+}
+
+.tagline {
+    font-size: 22px;
+    color: #d6d6dd;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 14px;
+    margin-top: 28px;
+}
+
+.feature {
+    border: 1px solid #2c2c35;
+    padding: 18px;
+    border-radius: 10px;
+    color: #c7c7d0;
+}
+
+footer {
+    border-top: 1px solid #29292f;
+    padding: 45px 7%;
+    color: #8f8f99;
+}
+
+.small {
+    font-size: 14px;
+}
+
+@media(max-width:700px) {
+    header {
+        position: static;
+    }
+
+    .nav a {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 70px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="nav">
+        <div class="brand">STITH TECHNOLOGIES</div>
+        <div>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="eyebrow">Independent Technology Company</div>
+
+    <h1>Practical software.<br>Built to solve real problems.</h1>
+
+    <p>
+        STITH TECHNOLOGIES creates straightforward software products
+        designed around problems people actually encounter in the real world.
+    </p>
+
+    <a class="button" href="#products">Explore Products</a>
+</section>
+
+<section class="section" id="products">
+    <h2>Products</h2>
+
+    <div class="product">
+        <h3>JobProfit</h3>
+
+        <div class="tagline">
+            Know if a job is worth it before you say yes.
+        </div>
+
+        <p class="muted">
+            JobProfit helps contractors, freelancers, handymen,
+            tradespeople, and service businesses estimate whether
+            a proposed job actually makes financial sense.
+        </p>
+
+        <div class="features">
+            <div class="feature">Customer price</div>
+            <div class="feature">Labor costs</div>
+            <div class="feature">Travel and mileage</div>
+            <div class="feature">Vehicle costs</div>
+            <div class="feature">Materials</div>
+            <div class="feature">Other job costs</div>
+            <div class="feature">Minimum hourly rate</div>
+            <div class="feature">Local calculations</div>
+        </div>
+
+        <a class="button" href="jobprofit/index.html">
+            Open JobProfit
+        </a>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2>About STITH TECHNOLOGIES</h2>
+
+    <p class="muted">
+        We build software around a simple principle:
+    </p>
+
+    <p>
+        <strong>Build something useful.</strong><br>
+        <strong>Make it understandable.</strong><br>
+        <strong>Verify that it works.</strong><br>
+        <strong>Put it in people's hands.</strong>
+    </p>
+
+    <p class="muted">
+        STITH TECHNOLOGIES is the public-facing company identity.
+        Our internal creation systems are responsible for discovery,
+        engineering, generation, testing, analysis, and product preparation.
+    </p>
+
+    <p class="muted">
+        Finished products are presented to the world through STITH TECHNOLOGIES.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <strong>STITH TECHNOLOGIES</strong>
+    <div class="small">
+        Practical software. Built to solve real problems.
+    </div>
+</footer>
+
+</body>
+</html>
