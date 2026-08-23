@@ -1,2 +1,4 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
+
+Sitemap: https://stithtechnologies-del.github.io/JobProfit/sitemap.xml
